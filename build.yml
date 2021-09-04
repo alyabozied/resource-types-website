@@ -6,4 +6,5 @@ image_resource:
     repository: golang
 
 run:
-  path: ls /go/src
+  path: ls 
+  args: /go/src
