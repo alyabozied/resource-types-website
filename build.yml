@@ -6,4 +6,4 @@ image_resource:
     repository: golang
 
 run:
-  path: pwd
+  path: ls /go/src/github.com
