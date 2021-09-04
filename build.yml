@@ -6,8 +6,4 @@ image_resource:
     repository: golang
 
 
-inputs:
-- name: website_code
-  src: /home/abozied
-output:
-- name: build-realease 
+
