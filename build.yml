@@ -9,4 +9,4 @@ inputs:
 
 run:
   path: ls 
-  args: ["/go/src"]
+  args: ["/go"]
