@@ -6,6 +6,4 @@ image_resource:
     repository: golang
 
 run:
-  path: echo
-  args: ["Hello, world!"]
-
+  path: pwd
