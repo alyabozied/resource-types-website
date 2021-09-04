@@ -6,5 +6,6 @@ image_resource:
     repository: golang
 
 run:
-  path: helloworld.sh
+  path: echo
+  args: ["Hello, world!"]
 
