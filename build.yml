@@ -4,6 +4,8 @@ image_resource:
   type: docker-image
   source:
     repository: golang
+inputs:
+- name:   website_code
 
 run:
   path: ls 
