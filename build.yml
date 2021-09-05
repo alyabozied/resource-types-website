@@ -8,5 +8,5 @@ inputs:
 - name:   website_code
 
 run:
-  path: ls 
-  args: ["/go"]
+  path: pwd
+
