@@ -8,6 +8,7 @@ inputs:
 - name: website_code
 - name: resource_types
 
-
+outputs:
+- name: website_code
 run:
-  path: website_code/script.sh
+  path: website_code/build.sh
