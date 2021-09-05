@@ -9,3 +9,4 @@ inputs:
 
 run:
   path: ls
+  args: ['website_code']
