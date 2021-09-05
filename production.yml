@@ -6,6 +6,6 @@ image_resource:
     repository: golang
 inputs:
 - name: website_code
-- name: github
+
 run:
   path: website_code/production.sh
