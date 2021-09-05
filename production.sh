@@ -1,2 +1,2 @@
 #!/bin/bash
-go run website_code/main.go
+go run website_code/warehouse/main.go
