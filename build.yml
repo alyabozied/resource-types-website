@@ -8,5 +8,5 @@ inputs:
 - name:   website_code
 
 run:
-  path: pwd
-
+  path: ls
+  args: ["/tmp/build/"]
