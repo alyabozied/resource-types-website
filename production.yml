@@ -8,4 +8,5 @@ inputs:
 - name: website_code
 
 run:
-  path: website_code/production.sh
+  path: ls
+  #path: website_code/production.sh
