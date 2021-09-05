@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "hello world"
+echo "hello world1"
 npm install --golabal yarn
