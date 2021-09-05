@@ -5,8 +5,8 @@ image_resource:
   source:
     repository: golang
 inputs:
-- name:   website_code
+- name: website_code
 
 run:
   path: ls
-  args: ["/tmp/build/"]
+  args: ["website_code"]
