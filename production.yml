@@ -8,4 +8,4 @@ inputs:
 - name: website_code
 
 run:
-  path: websitcode/production.sh
+  path: website_code/production.sh
