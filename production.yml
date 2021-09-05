@@ -9,4 +9,3 @@ inputs:
 
 run:
   path: ls
-  #path: website_code/production.sh
