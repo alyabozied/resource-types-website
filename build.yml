@@ -6,6 +6,8 @@ image_resource:
     repository: golang
 inputs:
 - name: website_code
+- name: resource_types
+
 
 run:
   path: ls
