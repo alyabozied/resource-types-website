@@ -1,4 +1,5 @@
 #!/bin/bash
-go version
-go help modules
-go run website_code/warehouse/main.go
+# go version
+# go help modules
+cd website_code/warehouse
+go run main.go
