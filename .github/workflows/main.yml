@@ -22,3 +22,5 @@ jobs:
         run: |
           cd warehouse
           git clone https://github.com/alyabozied/resource-types
+          cd resource-types
+          ls
