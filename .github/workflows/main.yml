@@ -21,5 +21,5 @@ jobs:
       - run: |
         cd warehouse 
        # rmdir resource-types
-        git clone https://github.com/alyabozied/resource-types
+       # git clone https://github.com/alyabozied/resource-types
       
