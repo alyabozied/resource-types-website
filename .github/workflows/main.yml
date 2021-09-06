@@ -20,6 +20,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
         cd warehouse 
-       # rmdir resource-types
-       # git clone https://github.com/alyabozied/resource-types
       
