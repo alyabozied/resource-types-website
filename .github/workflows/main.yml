@@ -18,6 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: pull then resources types repo
       - run: |
-        cd warehouse 
-        ls 
+          cd warehouse
+          git clone https://github.com/alyabozied/resource-types
