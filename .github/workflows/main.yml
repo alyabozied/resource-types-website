@@ -17,13 +17,14 @@ jobs:
     runs-on: self-hosted
 
     steps:
+
       - uses: actions/checkout@v2
       - name: pull then resources types repo
         run: |
           cd warehouse
           git clone https://github.com/alyabozied/resource-types  
           cd web
-      - name: test
-        uses: CultureHQ/actions-yarn@master
+      - uses: actions/setup-node@v2
         with:
-          args: test
+          node-version: '12.x'
+      - run : yarn build
