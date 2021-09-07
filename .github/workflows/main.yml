@@ -22,8 +22,9 @@ jobs:
       - name: pull then resources types repo
         run: |
           cd warehouse
-          git clone https://github.com/alyabozied/resource-types  
-          cd web
+          cd resource-types
+          git pull 
+          cd ../web
       - uses: actions/setup-node@v2
         with:
           node-version: '12.x'
