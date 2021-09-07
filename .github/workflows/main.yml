@@ -24,13 +24,4 @@ jobs:
           node-version: '12.x'
       - name: pull then resources types repo
         run: |
-          cd warehouse
-          cd resource-types
-          git pull 
-          cd ../web
-          yarn test 
-          npm install --global yarn
-          yarn install
-          yarn test 
-          yarn build
-        #  pmgo list
+          pmgo list
