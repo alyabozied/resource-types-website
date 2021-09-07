@@ -22,6 +22,7 @@ jobs:
         run: |
           cd warehouse
           git clone https://github.com/alyabozied/resource-types  
-       - uses: borales/actions-yarn@v2.3.0
+          cd web
+      - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: test 
