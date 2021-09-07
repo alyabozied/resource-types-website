@@ -25,7 +25,8 @@ jobs:
           cd resource-types
           git pull 
           cd ../web
-      - uses: actions/setup-yarn@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-      - run : npm build
+      - run : npm install --global yarn
+      - run : yarn install
