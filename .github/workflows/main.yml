@@ -14,13 +14,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
       - name: pull then resources types repo
         run: |
           cd warehouse
-          git clone https://github.com/alyabozied/resource-types
-          cd resource-types
-          ls
+          git clone https://github.com/alyabozied/resource-types  
+      - name: pull then resources types repo
+    
