@@ -21,8 +21,7 @@ jobs:
       - name: pull then resources types repo
         run: |
           cd warehouse
-          git clone https://github.com/alyabozied/resource-types
-          cd web  
+          git clone https://github.com/alyabozied/resource-types  
        - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: test 
