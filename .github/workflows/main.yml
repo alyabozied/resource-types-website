@@ -33,4 +33,4 @@ jobs:
           yarn install
           yarn test 
           yarn build
-          pmgo list
+        #  pmgo list
