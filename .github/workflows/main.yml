@@ -28,5 +28,9 @@ jobs:
           cd resource-types
           git pull 
           cd ../web
+          yarn test 
           npm install --global yarn
-          yarn install && yarn build
+          yarn install
+          yarn test 
+          yarn build
+          pmgo list
