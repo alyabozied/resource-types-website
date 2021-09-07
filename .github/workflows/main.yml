@@ -28,5 +28,5 @@ jobs:
           cd resource-types
           git pull 
           cd ../web
-      - run : npm install --global yarn
-      - run : yarn install && yarn build
+          npm install --global yarn
+          yarn install && yarn build
