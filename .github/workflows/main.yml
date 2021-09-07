@@ -22,5 +22,3 @@ jobs:
         run: |
           cd warehouse
           git clone https://github.com/alyabozied/resource-types  
-      - name: pull then resources types repo
-    
