@@ -29,4 +29,4 @@ jobs:
         with:
           node-version: '12.x'
       - run : npm install --global yarn
-      - run : yarn install
+      - run : yarn install && yarn build
