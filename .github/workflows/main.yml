@@ -32,5 +32,4 @@ jobs:
           yarn build
           cd ..
           source server.env
-          echo helloworld
           ginkgo -r -keepGoing .
