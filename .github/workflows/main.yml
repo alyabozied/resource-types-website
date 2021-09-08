@@ -22,8 +22,9 @@ jobs:
       - name: pull then resources types repo
         run: |
           cd warehouse
-          cd resource-types
-          cd ../web 
+          
+          git clone https://github.com/alyabozied/resource-types.git
+          cd web 
           yarn install
           yarn test 
           yarn build
