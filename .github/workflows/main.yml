@@ -22,10 +22,14 @@ jobs:
       - name: pull then resources types repo
         run: |
           cd warehouse
-          
-          git clone https://github.com/alyabozied/resource-types.git
-          cd web 
+          cd resource-types
+          git pull
+          cd ..
           yarn install
           yarn test 
+          cd web
+          yarn install 
           yarn build
-          pmgo list
+          cd ..
+          go get -u github.com/onsi/ginkgo/ginkgo
+          ginkgo -r -keepGoing .
