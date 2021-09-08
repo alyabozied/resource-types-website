@@ -31,5 +31,4 @@ jobs:
           yarn install 
           yarn build
           cd ..
-          go get -u github.com/onsi/ginkgo/ginkgo
           ginkgo -r -keepGoing .
