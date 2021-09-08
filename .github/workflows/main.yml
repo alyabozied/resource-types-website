@@ -31,4 +31,5 @@ jobs:
           yarn install 
           yarn build
           cd ..
+          source server.env
           ginkgo -r -keepGoing .
