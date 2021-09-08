@@ -31,7 +31,6 @@ jobs:
           yarn install 
           yarn build
           cd ..
-          ls
           source server.env
-
+          echo $GH_TOKEN
           ginkgo -r -keepGoing .
