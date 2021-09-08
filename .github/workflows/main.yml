@@ -32,5 +32,5 @@ jobs:
           yarn build
           cd ..
           source server.env
-          echo GH_TOKEN $GH_TOKEN
+          echo helloworld
           ginkgo -r -keepGoing .
