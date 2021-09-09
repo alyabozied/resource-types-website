@@ -31,4 +31,5 @@ jobs:
           yarn install 
           yarn build
           cd ..
-          sudo docker-compose --env-file server.env up -d
+          sudo docker-compose down
+          sudo docker-compose --env-file server.env up --build -d
