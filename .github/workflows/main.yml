@@ -24,13 +24,13 @@ jobs:
           cd warehouse
           cd resource-types
           git pull
-          cd ..
+      - name: yarn test
+        run: |
+          cd warehouse
           yarn install
           yarn test 
-          cd web
-          yarn install 
-          yarn build
-          cd ..
+      - name: docker build
+        run: |      
           sudo docker-compose build 
           sudo docker-compose down
           sudo docker-compose --env-file server.env up  -d
